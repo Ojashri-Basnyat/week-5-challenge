@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work Day Scheduler</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+  </head>
+
+  <body>
+    <header>
+      <h1>Work Day Scheduler</h1>
+      <p>Schedule your day and then hit Save</p>
+      <br>
+      <p id="current-time">Current Time</p>
+      <hr>
+      <div id="options-wrapper">
+        <button id="save" class="btn">Save Schedule</button>
+        <button id="reset" class="btn">Reset Schedule</button>
+      </div>
+      <hr>
+    </header>
+
+    <!-- container with all the rows for the planner -->
+    <main>
+    <div id="planner-wrapper">
+
+      <div class="planner-section">
+        <label for="t0">9:00 AM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t0">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      <div class="planner-section">
+        <label for="t1">10:00 AM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t1">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      <div class="planner-section">
+        <label for="t2">11:00 AM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t2">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      <div class="planner-section">
+        <label for="t3">12:00 PM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t3">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      <div class="planner-section">
+        <label for="t4">13:00 PM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t4">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      <div class="planner-section">
+        <label for="t5">14:00 PM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t5">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      <div class="planner-section">
+        <label for="t6">15:00 PM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t6">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      <div class="planner-section">
+        <label for="t7">16:00 PM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t7">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      <div class="planner-section">
+        <label for="t8">17:00 PM</label>
+        <div class="planner-input">
+          <input class="text-input" type="text" name="t8">
+        </div>
+        <span class="fas fa-save save"></span>
+      </div>
+      </div>
+    </main>
+
+<script src="./assets/js/script.js"></script>
+
+  </body>
+
+</html>
