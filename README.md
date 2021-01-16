@@ -5,6 +5,6 @@ present the time of the day, past-present-future; can enter text to the time blo
 
 The scheduler uses moment.js, checks the time of the day and if it is past a certain time, changes the color of the block to grey, if its on time changes the color to red, and if time is remaining it shows as green. 
 
-Schedule url: 
+Schedule url: https://ojashri-basnyat.github.io/week-5-challenge/index.html
 
 <img src="assets/images/Screen Shot 2021-01-16 at 5.04.32 PM.png">
